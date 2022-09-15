@@ -1,0 +1,137 @@
+@media screen and (min-width: 310px) and (max-width: 500px) {
+  * {
+    font-family: "Audiowide", sans-serif;
+  }
+  .HardDrinkHomePage {
+    width: 100%;
+    background-color: whitesmoke;
+    height: 100%;
+
+    padding: 2% 2%;
+  }
+  .menu1 {
+    margin: 3%;
+  }
+  .menu2 {
+    margin-left: 80%;
+  }
+
+
+  .greeting{
+    margin: 2% 4%;
+    font-weight: bold;
+  }
+
+  .search{
+    width: 80%;
+    padding: 2%;
+  }
+  .searchBox{
+    border-radius: 20px;
+
+  }
+  .filter{
+    font-size: xx-large;
+    text-align: end;
+    margin-top: -14%;
+    margin-right: -16%;
+    
+  }
+  .fill{font-size: larger;
+   padding: 2%;
+    border-radius: 50%;
+    
+    background-image: linear-gradient( to bottom , white ,  rgb(88, 113, 201));
+    color: white;
+
+  }
+  .categoryHeading{
+    margin-top: 3%;
+  }
+  .popularHeading{
+    margin-top: 3%;
+  }
+  .button{
+    
+    background-image: linear-gradient( to bottom , white ,  rgb(88, 113, 201));
+    width:20%;
+    height: 30px;
+    color: white;
+    border-radius: 25px;
+    border: none
+
+  }
+  .buttonposition{
+    text-align: end;
+    margin-top: -8%;
+    margin-right: 4%;
+  }
+  
+  
+  .alcohalCategory{
+    
+    width: 50px;
+    height: 700px;
+background-color: white;
+    border-radius: 90px / 80px;
+    align-items: center;
+    text-align: center;
+    padding-top: 7%;
+    
+  }
+  .alcohalCategory p{
+    font-weight: 600;
+  }
+  
+  .alcohalCategory:hover{
+    background-image: linear-gradient( to bottom , white ,  rgb(88, 113, 201));
+color: white;
+  }
+  
+
+  .popularAlcohal{
+    
+    width: 90px;
+    height: 200px;
+background-color: white;
+    border-radius: 25px;
+    align-items: center;
+    text-align: center;
+    padding-top: 7%;
+    
+  }
+  .popularAlcohal p{
+    font-weight: 600;
+  }
+  
+  .popularAlcohal:hover{
+    background-image: linear-gradient( to bottom , white ,  rgb(66, 102, 231));
+color: white;
+  }
+  .popularAlcohal .price{
+    color: gray
+  }
+
+.secondswiper{
+  margin-top: 3%;
+}
+  .bottomMenu{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient( to bottom , white ,  rgb(66, 102, 231));
+    border-radius: 50px;
+  margin: 0% 2%;
+  }
+  .link{
+    color: black;
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 501px) {
+  .HardDrinkHomePage {
+    visibility: hidden;
+  }
+}

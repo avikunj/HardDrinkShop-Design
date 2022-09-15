@@ -1,0 +1,96 @@
+@media screen and (min-width: 310px) and (max-width: 500px) {
+    .Productview{
+width: 100%;
+height: 100%;
+padding: 2% ;
+// background-color: whitesmoke;
+    }
+.image{
+    float: left;
+    padding-right: 30px;
+}
+
+.productpage{
+    margin-top: 10%;
+    padding: 3%;
+}
+
+.Backbutton h4{
+    background-color: aliceblue;
+    width: 20%;
+    border-radius: 10px;
+    border: 1px solid rgb(149, 168, 185);;
+    font-weight:600;
+    padding: 5px;
+}
+
+.heart{
+    text-align: end;
+    margin-top: -11%;
+    font-size: 30px;
+}
+.redheart{
+    font-size: 40px;
+}
+.redheart:hover {
+    color: red;
+}
+.productdetail{
+padding: 2px;
+text-align: start;
+
+}
+.productdetail p{
+    font-weight: 300;
+}
+.productdetail h4{
+    font-weight: 700;
+}
+
+
+.productinformation{
+
+    margin-top: 5%;
+}
+.productName h2{
+    font-weight: 600;
+
+
+} 
+.productPrice{
+margin-top: -16%;
+    text-align: end;
+}
+.productPrice h4{
+    color: grey;
+}
+.productPrice h6{
+    font-weight: 600;
+}
+.productinformation .link{
+    color: blue;
+}
+.productinformation h5{
+    font-weight: 600;
+    font-style: normal;
+}
+.IncreasePrice{
+    text-align: end;
+    margin-top: -8%;
+    padding: 2%;
+}
+
+
+.increas{
+    margin-right: 15px;
+    background-color: white;
+    border-radius: 30px;
+    background-image: linear-gradient( to bottom , white ,  rgb(88, 113, 201));
+}
+.decreas{
+    margin-left: 15px;
+    background-color: white;
+    border-radius: 30px;
+    background-image: linear-gradient( to bottom , white ,  rgb(88, 113, 201));
+}
+}
